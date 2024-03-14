@@ -18,12 +18,14 @@ class HomeWidget extends StatelessWidget {
             },
             child: Text("Evento 01"),
           ),
+          Padding(padding: EdgeInsets.all(10)),
           ElevatedButton(
             onPressed: () {
               WindowsChannel.instance.onEvent02();
             },
             child: Text("Evento 02"),
           ),
+          Padding(padding: EdgeInsets.all(10)),
           ElevatedButton(
             onPressed: () {
               WindowsChannel.instance.onEvent03();
